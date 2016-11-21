@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+    <title> Unit 9 Project: Music Survey </title>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="MusicSurvey.css">
+        
+    
+    </head>
+    
+    <header>
+            <h1> Music Survey </h1>
+        
+    </header>
+    
+    <body>
+        
+            
+    <form action="http://www.markmurtha.com/csis128/readform.asp" method="get" autocomplete="on">
+       
+        User Name:<br>
+        <input type="text" name="username" required><br>
+        
+        E-mail:<br>
+        <input type="email" name="email" autocomplete="on" required><br>
+        
+        <fieldset>
+            <legend> Music Preference: </legend>
+            
+            <p>What is your favorite type of music:</p>
+            
+                   <div class="selected">
+            <input type="radio" name="music" name="Rock"> Rock <br>
+            </div>
+            
+        <div class="selected">
+            <input type="radio" name="music" name="Country"> Country <br>
+            </div>
+            
+        <div class="selected">
+            <input type="radio" name="music" value="Rap"> Rap <br>
+            </div>
+            
+        <div class="selected">
+            <input type="radio" name="music" value="Other"> Other: <br>
+            <input type="text" name=" "><br>
+            </div>    
+            
+                    
+        </fieldset>
+        
+        <fieldset>
+        
+            <legend> Purchase Habit: </legend>
+            
+             <p>How often do you purchase music:</p>
+            
+        <div class="selected">
+            <input type="radio" name="purchase" name="Never"> <i>Almost Never/Never:</i> Never or less than 1 time per year <br><br>
+            </div>
+            
+        <div class="selected">
+            <input type="radio" name="purchase" name="NotOften"> <i>Every once in a while:</i> Once every 6 months <br><br>
+            </div>
+            
+        <div class="selected">
+            <input type="radio" name="purchase" value="Somewhat"> <i>Somewhat often:</i> At least once a month <br><br>
+            </div>
+            
+        <div class="selected">
+            <input type="radio" name="purchase" value="Often"> <i>Very Often:</i> At least once a week <br><br>
+            </div>
+            
+        
+        </fieldset>
+        
+        <p> Where do you usually listen to music: </p>
+        
+        <center><select size="3" required>
+        
+            <option value="Bedroom"> In my bedroom </option>
+            <option value="Shower"> In the shower </option>
+            <option value="Car"> In my car </option>
+            <option value="School"> At school </option>
+            <option value="Work"> At work </option>
+            <option value="Gym"> At the gym </option>
+            <option value="Other"> Other </option>
+        
+            </select></center> <br><br>
+        
+        <div>
+        <p id="align">What role does music play in your life?</p>
+        <textarea cols="60" rows="3" placeholder="Type your response here...." required></textarea><br>
+        </div>
+        
+        <br><br>
+        
+          <center><div>
+            <button class="button" type="submit" value="submit" onclick="msg()">Submit</button>
+            <script>
+                function msg(){
+                    alert("Thank you for time!");
+                }
+            </script>
+        
+            <button class="button" type="reset" value="reset" onclick="msgr()">Reset</button>
+             <script>
+                function msgr(){
+                    alert("Form Reset");
+                }
+            </script>
+            
+            </div></center>
+        
+        </form>
+        
+        <br><br>
+                
+    <footer>
+        
+        <center>
+            <a href="mailto:S1333093@student.mcckc.edu">Contact Web Page Author: Chris Sharkey</a><br>
+        </center>
+        
+        </footer>
+    
+    
+    
+    </body></html>

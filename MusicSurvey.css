@@ -1,0 +1,157 @@
+/* Chapter/Unit 9 MusicSurvey.html */
+
+h1	{
+	color: darkturquoise;
+	font-size: 100px;
+	font-weight: bolder;
+	font-stretch: wider;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px white;
+	text-align: center;
+	}
+
+body	{
+	background-image: url('silhouette.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	padding: 20%;
+	background-color: black;
+	}
+	
+body	{
+	max-width: 100%;
+	max-height: 100%;
+	}
+
+body	{
+	font-family: "New Time Roman", Arial;
+	letter-spacing: 2px;
+	}
+
+form	{
+	background-image: url('headphones.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	background-color: black;
+	border: 2px solid teal;
+	border-radius: 15px;
+	width: 100%;
+	}
+
+form	{
+	color: white;
+	font-weight: bold;
+	font-size: x-large;
+	font-family: inherit;
+	text-shadow: 3px 3px 5px teal;
+	padding-top: 20px;
+	padding-left: 10px;
+	}
+
+input[type=text], [type=email] {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizeing: border-box;
+	}
+
+input[type=text], [type=email] {
+	font-size: large;
+	font-weight: bold;
+	}
+
+input[type=text]:hover, [type=email]:hover{
+	border: 3px solid #555;
+	background-color: aqua;
+	}
+
+input[type=text]:focus, [type=email]:focus {
+	border: 3px solid teal;
+	background-color: powderblue;
+	}
+
+input[type=checkbox]:checked {
+	height: 20px;
+	width: 20px;
+	}
+
+fieldset {
+	border: 2px solid teal;
+	max-width: 95%;
+	} 
+
+legend	{
+	text-align: center;
+	font-variant: small-caps;
+	font-size: xx-large;
+	}
+
+p	{
+	font-style: italic;
+	font-variant: small-caps;
+	font-size: xx-large;
+	}
+
+div.selected:hover {
+	background-color: teal;
+		}
+
+select	{
+	border: 4px solid teal;
+	max-width: 50%;
+	} 
+
+option	{
+	font-size: x-large;
+	letter-spacing: 2px;
+	}
+
+option:hover {
+	background-color: aqua;
+		}
+
+textarea {
+	font-size: x-large;
+	letter-spacing: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+	max-width: 95%;
+	}
+
+textarea:hover {
+	background-color: aqua;
+		}
+
+textarea:focus {
+	border: 3px solid teal;
+	background-color: powderblue;
+	}
+
+button  {
+	min-width: 20%;
+	min-height: 6%;
+	font-size: 24px;
+	}
+
+button:hover {
+	background-color: aqua;
+		}
+
+button:focus {
+	border: 3px solid teal;
+	background-color: powderblue;
+	}
+
+
+#align	}
+	margin-top: 20px;
+	}
+
+
+
+a	{
+	color: darkturquoise;
+	}
